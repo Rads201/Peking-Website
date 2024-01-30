@@ -19,6 +19,7 @@ function App() {
           <Link to="/menu"><button>Menu</button></Link>
           <Link to="/photos"><button>Photos</button></Link>
         </nav>
+        <hr />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/menu" element={<MenuPage />} />
