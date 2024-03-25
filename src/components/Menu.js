@@ -45,9 +45,9 @@ function Menu({ menu }) {
         withString = "(Combos include 1 Pork Egg Roll and Pork Fried Rice)"
     }
     else if (menu[0].category === "Lunch Special") {
-        small = "A"
-        order = "B"
-        withString = "(A: Includes Vegetable Fried Rice or White Rice) - (B: Also includes Soda)"
+        small = ""
+        order = "Order"
+        withString = "(Served with Vegetable Fried Rice or White Rice)"
     }
 
     if (menu[0].category === "Chow Mein") {

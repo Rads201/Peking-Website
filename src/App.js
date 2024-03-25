@@ -20,6 +20,7 @@ function App() {
           <Link to="/photos"><button>Photos</button></Link>
         </nav>
         <hr />
+        <br></br>
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/menu" element={<MenuPage />} />
