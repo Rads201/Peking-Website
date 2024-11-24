@@ -3,13 +3,10 @@
 
 <head>
   <script>
-    const redirectToIndex = () => {
-      const path = window.location.pathname.split('/').slice(1).join('/');
-      if (!path.startsWith('index.html') && path !== '') {
-        window.location.href = '/index.html';
-      }
-    };
-    redirectToIndex();
+    if (window.location.pathname !== '/' && !window.location.pathname.startsWith('/index.html')) {
+      const url = window.location.origin + '/<repository>';
+      window.location.href = `${url}/#${window.location.pathname}`;
+    }
   </script>
   <meta charset="utf-8" />
   <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
