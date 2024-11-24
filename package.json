@@ -1,7 +1,7 @@
 {
   "name": "test-app",
   "version": "0.1.0",
-  "homepage": "https://Rads201.github.io",
+  "homepage": "https://Rads201.github.io/Peking-Website",
   "private": true,
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
